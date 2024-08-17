@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.sell-header {
+    background:#028668;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.sell-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.sell-header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.primary-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #ff4c4c;
+}
+
+.how-it-works {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.how-it-works h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.step img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.step h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.step p {
+    font-size: 1em;
+    color: #666;
+}
+
+.benefits {
+    padding: 50px 20px;
+    background-color: #028668;
+    color: white;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.benefits-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefit-item {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.benefit-item img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.benefit-item h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.benefit-item p {
+    font-size: 1em;
+    color: white;
+}
+
+.sell-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sell-footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+.sell-footer a:hover {
+    text-decoration: underline;
+}
